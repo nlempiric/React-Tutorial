@@ -20,6 +20,11 @@ const handleChange=(event)=>
     setText(event.target.value);
 }
 
+const handleclear=(event)=>
+{
+    let newText="";
+    setText(newText);
+}
 // setText("state changed");
   return (
     <>
@@ -29,8 +34,9 @@ const handleChange=(event)=>
         {/* <label for="examplete" class="form-label">Enter Your Text Here</label> */}
         <textarea className="form-control" value={text} onChange={handleChange} id="examplete" rows="5"/>
     </div>
-    <button className="btn btn-primary mx-3" onClick={handleClick}>Convert to uppercase</button>
-    <button className="btn btn-primary" onClick={handleClick1}>Convert to lowercase</button>
+    <button className="btn btn-primary mx-3 " onClick={handleClick}>Convert to uppercase</button>
+    <button className="btn btn-primary mx-3" onClick={handleClick1}>Convert to lowercase</button>
+    <button className="btn btn-primary mx-3" onClick={handleclear}>clear text</button>
     </div>
     <div className="container my-3">
         <h1>your text summary</h1>
