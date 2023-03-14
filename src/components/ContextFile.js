@@ -8,6 +8,7 @@ export default function ContextFile() {
    
     const handleClicked=()=>
     {
+        setName("Riya");
         setVal(val+1);
     }
     const contextValue=

@@ -17,7 +17,7 @@ import Uncontrolled_form from './components/Uncontrolled_form';
 import Callbacks from './components/Callbacks';
 import LiftingState from './components/LiftingState';
 import ContextFile from './components/ContextFile';
-
+import HOC from './components/HOC';
 
 // let name="asd"
 const a=[1,2,3,4];
@@ -43,7 +43,8 @@ function App() {
     {/* <Uncontrolled_form></Uncontrolled_form> */}
     {/* <Callbacks></Callbacks> */}
     {/* <LiftingState></LiftingState> */}
-    <ContextFile></ContextFile>
+    {/* <ContextFile></ContextFile> */}
+    <HOC></HOC>
 
     </div>
     </>
