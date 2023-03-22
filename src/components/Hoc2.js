@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import Army from './Hocomponent';
 
 function Hoc2(props) {
-    console.log(props.camp);
+    // console.log(props.camp);
     return (
     <div>
     <h4>Camp: {props.camp}</h4>

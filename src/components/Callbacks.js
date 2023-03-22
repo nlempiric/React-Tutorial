@@ -14,9 +14,9 @@ export default function Callbacks() {
   return (
     <div>
       <form>
-        Name: <input type="text" />
-
-        Password: <input type="text" ref={backRef}/>
+        Name: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" />
+        <br /><br />
+        Password:&nbsp;&nbsp; <input type="text" ref={backRef}/>
         <br /><br />
         <button >Submit</button>
       </form>

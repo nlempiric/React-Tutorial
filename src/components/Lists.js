@@ -23,6 +23,7 @@ export default function Lists(props) {
 
   // ------------------
   const arr=props.numbers;
+  console.log(arr);
   const newArr=arr.map((num)=>
   {
     return <li key={num}>{num}</li>    
